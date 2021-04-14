@@ -22,7 +22,7 @@ const FormContainer = () => {
   })
 
   const sendToGoggleSheets = async (stringParams) => {
-    const googleSheetsUrl = 'https://script.google.com/macros/s/AKfycbyGxby1JsYdVziYtRwRqBUjtU6f2_a7wesf2sft3l6e1nXFFxAurfuQBO7W4HC0wdj3Uw/exec'
+    const googleSheetsUrl = 'https://script.google.com/macros/s/AKfycbwPfO3SFDbsqwZ0mFuhUvlIdZZh37USZ0abhxeprgs0UKwKOAC3O7kpBEteZFBq6zAKCQ/exec'
 
     try {
       await fetch(`${googleSheetsUrl}?${stringParams}`, {
