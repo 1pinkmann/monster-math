@@ -13,6 +13,7 @@ export const serializerParams = ({
   child_2_age = '-',
   child_2_grade = '-',
   ip = '-',
+  type = '-'
 }) => {
   const params = "first_name=" + first_name +
                  "&last_name=" + last_name +
@@ -27,6 +28,7 @@ export const serializerParams = ({
                  "&child_2_age=" + child_2_age +
                  "&child_2_grade=" + child_2_grade +
                  "&mesage=" + message +
-                 "&ip=" + ip
+                 "&ip=" + ip + 
+                 "&type=" + type
   return params
 }

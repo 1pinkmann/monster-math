@@ -36,7 +36,7 @@ const FormContainer = () => {
   }
 
   const buildNewUserData = (params) => {
-    return {...userData, ...params, ip: ipAdress}
+    return {...userData, ...params, ip: ipAdress, type: 'Math'}
   }
 
   const commonThingsForSendData = (newUserData) => {
@@ -47,7 +47,7 @@ const FormContainer = () => {
   const sendDataAndNext = (params) => {
     const newUserData = buildNewUserData(params)
     commonThingsForSendData(newUserData)
-    setUserData({ ...newUserData, type: 'Math'})
+    setUserData(newUserData)
   }
 
   const sendForFinishStep = params => {
