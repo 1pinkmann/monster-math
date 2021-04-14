@@ -23,7 +23,7 @@ const FormContainer = () => {
   // new https://script.google.com/macros/s/AKfycbwJ9H88mHG6x2w8IGDOZocYyZCciZ4SUDmC-SfbuDjgCILgeQNsqpw7L9rqldSjLEJskg/exec
   // https://script.google.com/macros/s/AKfycbwPfO3SFDbsqwZ0mFuhUvlIdZZh37USZ0abhxeprgs0UKwKOAC3O7kpBEteZFBq6zAKCQ/exec
   const sendToGoggleSheets = async (stringParams) => {
-    const googleSheetsUrl = 'https://script.google.com/macros/s/AKfycbwRRJIlbBTSOabLE7X0RF3sF1rLXemWfAHLcJP45f_jppF04p3nwI-O0iWwFjktURhpiQ/exec'
+    const googleSheetsUrl = 'https://script.google.com/macros/s/AKfycbzOh_xEOlzoL3jZ22EQM373PPr7XbI1kpi749NkJjbMd9x3JBOxd7y3vayog3tZde_VaA/exec'
 
     try {
       await fetch(`${googleSheetsUrl}?${stringParams}`, {
