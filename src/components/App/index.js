@@ -23,10 +23,8 @@ function App() {
       <Block2 />
       <Block3 />
       <Block4 />
-      <ButtonApply text="Apply Now" />
+      <ButtonApply text="Apply" />
       <Block5 />
-      <Block6 />
-      <ButtonApply text="Contact Us" />
       <Block7 />
       <Block8 />
       <Block9 />

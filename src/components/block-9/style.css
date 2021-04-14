@@ -14,6 +14,28 @@
   align-items: center;
 }
 
+.card-feedback__image-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-feedback__image-wrapper::before {
+  content: '';
+  padding-top: 84%;
+  width: 100%;
+  display: block;
+}
+
+.card-feedback img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
 .block-9__title {
   text-align: left;
 }
@@ -35,7 +57,7 @@
     padding-top: 40px;
   }
 
-  .card-feedback img {
+  .card-feedback__image-wrapper {
     width: 80%;
     margin-top: 40px;
   }
@@ -70,7 +92,7 @@
     font-size: 6vw;
   }
 
-  .card-feedback img {
+  .card-feedback__image-wrapper{
     width: 100%;
     margin-top: 20px;
   }

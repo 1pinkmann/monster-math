@@ -10,7 +10,7 @@
 }
 
 .bg-video__column {
-    max-width: 41%;
+    max-width: 40%;
 }
 
 .bg-video {
@@ -44,7 +44,6 @@
 
 .bg-video h1 {
     margin-top: 80px;
-    max-width: 408px;
     color: var(--white);
     z-index: 1;
 }

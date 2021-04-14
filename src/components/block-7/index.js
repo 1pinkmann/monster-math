@@ -1,9 +1,9 @@
 import './style.css';
 import BioCard from '../bio-card/';
 
-const textForPaul = "LA actor and comedian Paul brings an element of laughter, fun, and boosts kids confidence when coaching public speaking through stand-up comedy. Paul has several decades experience in child and adult education. He began his career as a stand-up comedian at the age of 18 and continues to work  in film and TV shows. He graduated from San Francisco State University Cinema and Theater program. "
-const textForJaquita = "Ms. Jaquita, M.Ed specializes in helping students learn self-regulation strategies to increase reading comprehension and strengthen writing skills. She has over seven years of teaching experience in reading, composition and literature. Ms. Jaquita possesses a Bachelor of Arts in English, as well as a Masters in Education. She is a mother of two children that she homeschools. In her free time, she loves to read, to bake and to be outside in nature."
-const textForEvelina = "Certified life coach Evelina, based in sunny Honolulu, incorporates mindfulness approaches to empower children in a fun and engaging way. A lifelong-learner passionate about personal development, she holds a BA and a Master’s degree in Business Administration and has been exposed to multicultural environments working in Europe and the US, as well as through extensive travels and study in Asia. Her 4 nieces and nephews are her source of inspiration for continuous growth and love."
+const textForFerguson = "Ms. Mitchell is so fun and bubbly that no one would guess that she has been teaching for 27 years. She has taught upper elementary Singapore Math for the past 14 years and been at the same leading private school of the southeast for 24 years. Her specialty is making long division, multiple digit multiplication, fractions, and multi-step word problems seem like a piece of cake!  She holds a BS in Elementary Education from the University of Central Florida."
+const textForPayne = "Ms. Payne brings her smile and her 16 years teaching experience to every class. She has taught lower elementary grades ( K to 2nd grade) at a leading private school in Florida for the past 8 years. Ms. Payne holds a BA and MA in Education from the University of Texas at Austin. Her favorite subjects are math, reading, and science! Her dog Hattie may also make an appearance in class!"
+const textForMitchell = "As a certified teacher of gifted and elementary education, Ms. Ferguson has been teaching for 25 years in grades 1-6 and could not imagine doing anything else. She currently teaches at a top private school. She holds a BA in Elementary Education from University of West Florida and did her graduate work in gifted education. She is very happily married and proud of her two daughters: a dental school student at Tufts University and a recent graduate from Auburn University."
 
 const Block7 = () =>{
   return <>
@@ -11,16 +11,16 @@ const Block7 = () =>{
     <h2>Featured Instructors and Coaches:</h2>
     <div className="row">
       <div className="col-12 col-md-6 col-lg-4">
-        <BioCard backgroundImageClass="Paul-bio" text={textForPaul} />
-        <h4>Paul</h4>
+        <BioCard backgroundImageClass="Ferguson-bio" text={textForFerguson} />
+        <h4>Ms. Ferguson</h4>
       </div>
       <div className="col-12 col-md-6 col-lg-4">
-        <BioCard backgroundImageClass="Jaquita-bio" text={textForJaquita}/>
-        <h4>Jaquita</h4>
+        <BioCard backgroundImageClass="Payne-bio" text={textForPayne}/>
+        <h4>Ms. Payne</h4>
       </div>
       <div className="col-12 col-md-6 col-lg-4 bio">
-        <BioCard backgroundImageClass="Evelina-bio" text={textForEvelina}/>
-        <h4>Evelina</h4>
+        <BioCard backgroundImageClass="Mitchell-bio" text={textForMitchell}/>
+        <h4>Ms. Mitchell</h4>
       </div>
     </div>
   </div>

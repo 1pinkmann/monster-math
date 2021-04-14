@@ -24,7 +24,7 @@ const Block11 = () => {
                 <div className="col-11 col-lg-5 block-11__text-wrapper">
                     <p className="block-11__text">
                         <span className="block-11__text-inner">
-                            Supporting the development of a child’s character and personality is too often overlooked in many academic environments. Yet it is often these soft skills such as emotional emotional intelligence, self-expression, and life skills that end up being the most important in the formation of an individual and their future success.
+                            “It’s the teacher that makes a whole world of difference to a student....not the textbook, worksheet, or the instructional video. Having studied with extraordinary professors and lectured at leading universities, I put a lot of stock in teachers who I personally handpick for Monster Education looking for inspired and inspiring individuals. Fortunately, technology eliminates the distance between the teacher and the students.”
                         </span>
                     </p>
                     <p className="dark-primery block-11__name">Dr. Agnia Grigas</p>

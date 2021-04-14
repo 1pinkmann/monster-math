@@ -17,7 +17,7 @@ const Block3 = () =>{
       </div>
       <div className="col-12 col-md-4">
         <img src={block3img2} alt="" />
-        <h4>Hand-picked accredited teachers & credentialed instructors</h4>
+        <h4>Accredited & experienced Singapore Math teachers</h4>
       </div>
       <div className="col-12 col-md-4">
         <img src={block3img3} alt="" />

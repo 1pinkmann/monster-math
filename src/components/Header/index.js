@@ -19,8 +19,8 @@ const Header = () => {
               <img className="logo" src={logo} alt="logo" />
             </a>
             <div className="title">
-              <h1>Public Speaking & Life Skills K-5</h1>
-              <p>Boost your child’s confidence, develop their personality, make new friends, and more.</p>
+              <h1>Singapore School of Math K-5</h1>
+              <p>Learn problem-solving and develop mathematical thinking with the esteemed Singapore Math curriculum.</p>
             </div>
           </div>
           <div className="bg-video__column">
