@@ -18,7 +18,7 @@ const Block9 = () => {
 							</div>
 							<h4>- Camille Ault, writer and mom of two, San Diego, CA </h4>
 							<p>
-								We’ve seen our daughter’s math comprehension skyrocket! After looking into various tutoring options, Monster Education has exceeded our expectations.  Her Singapore Math teacher has done an excellent job at keeping our daughter engaged while teaching new and challenging concepts beyond what her current school offers.  The weekly zoom meetings are convenient and easy to attend.
+								“We’ve seen our daughter’s math comprehension skyrocket! After looking into various tutoring options, Monster Education has exceeded our expectations.  Her Singapore Math teacher has done an excellent job at keeping our daughter engaged while teaching new and challenging concepts beyond what her current school offers.  The weekly zoom meetings are convenient and easy to attend.“
             				</p>
 						</div>
 					</div>
@@ -29,7 +29,7 @@ const Block9 = () => {
 							</div>
 							<h4>- Amy Choi-Won, Ph.D. Mom of five & founder of My Parenting Guru, Orange County, CA</h4>
 							<p>
-								I love the personal attention and the personalized education my daughter gets with Monster Education. In Singapore Math she enjoys learning with her small group of friends and extraordinary teachers. As a mom, I love getting personal feedback, seeing her progress, and having all the work done for me and curated by Monster Education.
+								“I love the personal attention and the personalized education my daughter gets with Monster Education. In Singapore Math she enjoys learning with her small group of friends and extraordinary teachers. As a mom, I love getting personal feedback, seeing her progress, and having all the work done for me and curated by Monster Education.“
 							</p>
 						</div>
 					</div>
