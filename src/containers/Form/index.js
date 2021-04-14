@@ -20,7 +20,7 @@ const FormContainer = () => {
   useEffect(async () => {
     getApi()
   })
-
+  // https://script.google.com/macros/s/AKfycbwPfO3SFDbsqwZ0mFuhUvlIdZZh37USZ0abhxeprgs0UKwKOAC3O7kpBEteZFBq6zAKCQ/exec
   const sendToGoggleSheets = async (stringParams) => {
     const googleSheetsUrl = 'https://script.google.com/macros/s/AKfycbwJ9H88mHG6x2w8IGDOZocYyZCciZ4SUDmC-SfbuDjgCILgeQNsqpw7L9rqldSjLEJskg/exec'
 
@@ -35,7 +35,7 @@ const FormContainer = () => {
   }
 
   const buildNewUserData = (params) => {
-    return {...userData, ...params, ip: ipAdress, type: 'math'}
+    return {...userData, ...params, ip: ipAdress, type: 'Math'}
   }
 
   const commonThingsForSendData = (newUserData) => {
