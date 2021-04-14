@@ -5,7 +5,7 @@ import Form from '../../components/Form';
 import { serializerParams } from '../../services/serializer'
 import { getClientIp } from '../../services/ipAdress'
 
-const FormContainer = () => {
+const FormContainer = ({id}) => {
   const [ipAdress, setIpAdress] = useState('')
   const [userData, setUserData] = useState({})
   const [childs, setChilds] = useState(1)
@@ -69,6 +69,7 @@ const FormContainer = () => {
         removeChild={() => setChilds(childs - 1)}
         sendDataAndNext={sendDataAndNext}
         sendForFinishStep={sendForFinishStep}
+        id={id}
       />
     </>
   )
