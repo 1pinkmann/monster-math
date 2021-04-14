@@ -24,7 +24,7 @@ const Header = () => {
             </div>
           </div>
           <div className="bg-video__column">
-            <FormContainer />
+            <FormContainer id="form-header" />
           </div>
         </div>
 

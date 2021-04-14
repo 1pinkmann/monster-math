@@ -13,7 +13,7 @@ const Block10 = () => {
           <h3>(value $199.00)</h3>
         </div>
         <div className="col-12 col-lg-6">
-          <FormContainer />
+          <FormContainer id="form-contact" />
         </div>
       </div>
     </div>
