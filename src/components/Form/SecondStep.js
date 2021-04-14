@@ -65,11 +65,11 @@ const childFields = number => (
   </>
 )
 
-const SecondStep = ({ userData, sendDataAndNext, goToBackStep, addChild, removeChild, childs }) => {
+const SecondStep = ({ userData, sendDataAndNext, goToBackStep, addChild, removeChild, childs, id }) => {
   return (
     <Form initialValues={userData} onSubmit={sendDataAndNext} render={({ handleSubmit, invalid }) => {
       return (
-        <form className="form position-absolute" onSubmit={handleSubmit}>
+        <form className="form position-absolute" id={id} onSubmit={handleSubmit}>
           <h3>Contact Us to Apply</h3>
 
           {childFields(1)}

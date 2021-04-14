@@ -7,8 +7,8 @@ import FourthStepOfForm from './FourthStep'
 
 import './style.css';
 
-const FormComponent = ({ userData, sendForFinishStep, goToBackStep, step, childs, addChild, removeChild, sendDataAndNext }) => {
-  if (step === 1) return <FirstStepOfForm userData={userData} sendDataAndNext={sendDataAndNext} />
+const FormComponent = ({ userData, sendForFinishStep, goToBackStep, step, childs, addChild, removeChild, sendDataAndNext, id }) => {
+  if (step === 1) return <FirstStepOfForm userData={userData} sendDataAndNext={sendDataAndNext} id={id} />
   if (step === 2) {
     return (
       <SecondStepOfForm
@@ -17,11 +17,12 @@ const FormComponent = ({ userData, sendForFinishStep, goToBackStep, step, childs
         childs={childs}
         goToBackStep={goToBackStep}
         addChild={addChild}
-        removeChild={removeChild} />
+        removeChild={removeChild}
+        id={id} />
     )
   }
-  if (step === 3) return <ThirdStepOfForm userData={userData} sendForFinishStep={sendForFinishStep} goToBackStep={goToBackStep} />
-  if (step === 4) return <FourthStepOfForm />
+  if (step === 3) return <ThirdStepOfForm userData={userData} sendForFinishStep={sendForFinishStep} goToBackStep={goToBackStep} id={id} />
+  if (step === 4) return <FourthStepOfForm id={id} />
 }
 
 export default FormComponent

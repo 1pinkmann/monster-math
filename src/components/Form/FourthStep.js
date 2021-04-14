@@ -2,13 +2,13 @@ import React from 'react'
 
 import Button from '../atoms/Button'
 
-const FirstStep = () => {
+const FirstStep = ({id}) => {
   const openScheduleLink = () => {
-    window.open('https://calendly.com/monstereducation/singapore_math')
+    window.open('https://calendly.com/monstereducation/introduction-call-public-speaking-life-skills')
   }
 
   return (
-    <form className="form position-absolute">
+    <form className="form position-absolute" id={id}>
       <h3>Schedule a call with out education expert:</h3>
 
       <div className='form-footer'>

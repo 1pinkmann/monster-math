@@ -5,11 +5,11 @@ import Textarea from '../atoms/Textarea'
 import Button from '../atoms/Button'
 import { required } from '../../services/fieldLevelValidation'
 
-const ThirdStep = ({ userData, sendForFinishStep, goToBackStep }) => {
+const ThirdStep = ({ userData, sendForFinishStep, goToBackStep, id }) => {
   return (
     <Form initialValues={userData} onSubmit={sendForFinishStep} render={({ handleSubmit, invalid, form }) => {
       return (
-        <form className="form position-absolute" onSubmit={event => {
+        <form className="form position-absolute" id={id} onSubmit={event => {
           handleSubmit(event)
           form.reset()
         }}>
