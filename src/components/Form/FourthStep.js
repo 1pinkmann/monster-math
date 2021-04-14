@@ -4,7 +4,7 @@ import Button from '../atoms/Button'
 
 const FirstStep = () => {
   const openScheduleLink = () => {
-    window.open('https://calendly.com/monstereducation/introduction-call-public-speaking-life-skills')
+    window.open('https://calendly.com/monstereducation/singapore_math')
   }
 
   return (

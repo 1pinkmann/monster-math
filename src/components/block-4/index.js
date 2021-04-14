@@ -12,10 +12,17 @@ const Block4 = () => {
                 <div className="col-10 offset-1 offset-md-0 col-md-6 block-4__card">
                     <h2 className="block-4__card-title">Singapore Math Course</h2>
                     <p>
-                        An interactive and fun approach taught by grade level in small groups. <br />
-                        Led by an experienced and accredited Singapore Math teacher, the class meets once a week for 40 minutes for 12 weeks.
-                        Students learn in very small groups of under 6 kids based on grade and level. Optional homework is assigned for grades
-                        2-5th.
+                        • Live video classes of 40 minutes<br />
+                        <br />
+                        • Taught by grade and ability level<br />
+                        <br />
+                        • Small groups of under 6 kids<br />
+                        <br />
+                        • Meeting once or twice a week for 8 weeks<br />
+                        <br />
+                        • Experienced & accredited Singapore Math teachers<br />
+                        <br />
+                        • Optional homework assigned for upper elementary<br />
                     </p>
                 </div>
             </div>
