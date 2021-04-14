@@ -1,0 +1,41 @@
+.block-7 {
+  margin-top: 100px;
+}
+
+.block-7 h2 {
+  margin-bottom: 60px;
+}
+
+.block-7 img {
+  width: 100%;
+  height: auto;
+}
+
+.block-7 h4 {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.block-7 .Paul-bio {
+  background-image: url(../../assets/img/Paul.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.block-7 .Jaquita-bio {
+  background-image: url(../../assets/img/Jaquita.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.block-7 .Evelina-bio {
+  background-image: url(../../assets/img/Evelina.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+@media (max-width: 767px) {
+  .block-7 h2 {
+    margin-bottom: 30px;
+  }
+}
