@@ -23,7 +23,7 @@ function App() {
       <Block2 />
       <Block3 />
       <Block4 />
-      <ButtonApply text="Apply" />
+      <ButtonApply text="Apply Now" />
       <Block5 />
       <Block7 />
       <Block8 />

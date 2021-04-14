@@ -38,4 +38,10 @@
   .block-7 h2 {
     margin-bottom: 30px;
   }
+
+  .block-7__card {
+    max-width: 380px !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

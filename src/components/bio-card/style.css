@@ -15,6 +15,7 @@
   max-width: 1024px;
   margin: 0 auto;
   background-position: center;
+  background-size: cover;
 }
 
 .block-7 .card {

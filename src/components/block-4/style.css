@@ -40,10 +40,6 @@
   .block-4 {
     margin-top: 60px;
   }
-
-  .block-4__card-title{
-    margin-top: 0;
-  }
 }
 
 @media (max-width: 767px) {

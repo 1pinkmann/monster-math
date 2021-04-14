@@ -10,15 +10,15 @@ const Block7 = () =>{
   <div className="container block-7">
     <h2>Featured Instructors and Coaches:</h2>
     <div className="row">
-      <div className="col-12 col-md-6 col-lg-4">
+      <div className="col-12 col-md-6 col-lg-4 block-7__card">
         <BioCard backgroundImageClass="Ferguson-bio" text={textForFerguson} />
         <h4>Ms. Ferguson</h4>
       </div>
-      <div className="col-12 col-md-6 col-lg-4">
+      <div className="col-12 col-md-6 col-lg-4 block-7__card">
         <BioCard backgroundImageClass="Payne-bio" text={textForPayne}/>
         <h4>Ms. Payne</h4>
       </div>
-      <div className="col-12 col-md-6 col-lg-4 bio">
+      <div className="col-12 col-md-6 col-lg-4 bio block-7__card">
         <BioCard backgroundImageClass="Mitchell-bio" text={textForMitchell}/>
         <h4>Ms. Mitchell</h4>
       </div>

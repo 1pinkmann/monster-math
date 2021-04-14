@@ -10,7 +10,7 @@ const Block4 = () => {
                     <img src={block4img1} alt="illustration" />
                 </div>
                 <div className="col-10 offset-1 offset-md-0 col-md-6 block-4__card">
-                    <h2 className="block-4__card-title">Singapore School of Math</h2>
+                    <h2 className="block-4__card-title">Singapore Math Course</h2>
                     <p>
                         An interactive and fun approach taught by grade level in small groups. <br />
                         Led by an experienced and accredited Singapore Math teacher, the class meets once a week for 40 minutes for 12 weeks.
