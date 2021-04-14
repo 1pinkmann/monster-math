@@ -23,7 +23,7 @@ const FormContainer = () => {
   // new https://script.google.com/macros/s/AKfycbwJ9H88mHG6x2w8IGDOZocYyZCciZ4SUDmC-SfbuDjgCILgeQNsqpw7L9rqldSjLEJskg/exec
   // https://script.google.com/macros/s/AKfycbwPfO3SFDbsqwZ0mFuhUvlIdZZh37USZ0abhxeprgs0UKwKOAC3O7kpBEteZFBq6zAKCQ/exec
   const sendToGoggleSheets = async (stringParams) => {
-    const googleSheetsUrl = 'https://script.google.com/macros/s/AKfycbx5dTnMsznEcBWnav2mJWw3LDATEceUKGnm0uOrJtXRvd2Orv1sQ5Uzq-Ql3cjc-I_tVg/exec'
+    const googleSheetsUrl = 'https://script.google.com/macros/s/AKfycbwRRJIlbBTSOabLE7X0RF3sF1rLXemWfAHLcJP45f_jppF04p3nwI-O0iWwFjktURhpiQ/exec'
 
     try {
       await fetch(`${googleSheetsUrl}?${stringParams}`, {
@@ -36,7 +36,7 @@ const FormContainer = () => {
   }
 
   const buildNewUserData = (params) => {
-    return {...userData, ...params, ip: ipAdress, type: 'Math'}
+    return {...userData, ...params, ip: ipAdress}
   }
 
   const commonThingsForSendData = (newUserData) => {
@@ -47,7 +47,7 @@ const FormContainer = () => {
   const sendDataAndNext = (params) => {
     const newUserData = buildNewUserData(params)
     commonThingsForSendData(newUserData)
-    setUserData(newUserData)
+    setUserData({ ...newUserData, type: 'Math'})
   }
 
   const sendForFinishStep = params => {
