@@ -48,7 +48,7 @@ const FormContainer = ({id}) => {
     const newUserData = buildNewUserData(params)
     commonThingsForSendData(newUserData)
     setUserData(newUserData)
-    window.dataLayer.push({'event': 'formsend'});
+    window.dataLayer.push({'event': 'gtm.formSubmit'});
   }
 
   const sendForFinishStep = params => {
