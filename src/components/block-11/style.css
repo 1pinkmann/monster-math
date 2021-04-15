@@ -2,6 +2,10 @@
     margin-top: 120px;
 }
 
+.block-11__row {
+    align-items: flex-start;
+}
+
 .block-11 p {
     margin-top: 0;
     margin-bottom: 0;

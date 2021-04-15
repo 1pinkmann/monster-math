@@ -4,10 +4,13 @@ import lapki from '../../assets/img/lapki.svg';
 import mrPaul from '../../assets/video/Agnia.mp4';
 import { useEffect, useRef } from 'react';
 import checkVideoInViewport from '../../services/checkVideoPosition';
+import useVideo from '../../hooks/useVideo';
 
 const Block11 = () => {
 
     let videoRefs = useRef([]);
+
+    let {handleVideoPlay, handleVideoPause} = useVideo();
 
     useEffect(() => {
         let videoElements = videoRefs.current;
@@ -31,7 +34,7 @@ const Block11 = () => {
                     <p className="block-11__prof">Founder of Monster Education</p>
                 </div>
                 <div className="col-12 col-lg-6 block-11__video-wrapper">
-                    <div className="video">
+                    <div className="video" onPlay={handleVideoPlay} onPause={handleVideoPause}>
                         <video ref={el => videoRefs.current.push(el)} controls="controls" poster={Poster3} playsInline>
                             <source src={mrPaul} type='video/mp4' />
                         </video>

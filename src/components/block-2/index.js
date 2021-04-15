@@ -1,9 +1,12 @@
 import './style.css';
+import Poster1 from '../../assets/img/poster1.jpg';
+import Poster2 from '../../assets/img/poster2.jpg';
 import ChoiWon from '../../assets/video/Choi-Won.mp4';
 import MsMitchell from '../../assets/video/Ms-Mitchell.mp4';
 import Slider from "react-slick";
 import checkVideoInViewport from './../../services/checkVideoPosition';
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
+import useVideo from '../../hooks/useVideo';
 
 const settings = {
     dots: true,
@@ -14,6 +17,8 @@ const settings = {
 };
 
 const Block2 = () => {
+
+    let {handleVideoPlay, handleVideoPause} = useVideo();
 
     let videoRefs = useRef([]);
 
@@ -35,15 +40,15 @@ const Block2 = () => {
                 <div className="col-10 col-lg-6 section-1 block-2__wrapper">
                     <Slider beforeChange={stopVideo} {...settings}>
                         <div>
-                            <div className="video">
-                                <video ref={el => videoRefs.current.push(el)} preload="metadata" controls="controls" playsInline>
+                            <div className="video" onPlay={handleVideoPlay} onPause={handleVideoPause}>
+                                <video ref={el => videoRefs.current.push(el)} preload="metadata" controls="controls" playsInline poster={Poster1}>
                                     <source src={ChoiWon} type='video/mp4' />
                                 </video>
                             </div>
                         </div>
                         <div>
-                            <div className="video">
-                                <video ref={el => videoRefs.current.push(el)} controls="controls" playsInline>
+                            <div className="video" onPlay={handleVideoPlay} onPause={handleVideoPause}>
+                                <video ref={el => videoRefs.current.push(el)} controls="controls" playsInline poster={Poster2}>
                                     <source src={MsMitchell} type='video/mp4' />
                                 </video>
                             </div>

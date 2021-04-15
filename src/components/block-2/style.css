@@ -91,15 +91,46 @@
 
 .video {
     max-width: 580px;
-    
+    position: relative;
     outline: none;
+    border-radius: 30px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.video::before, .video::after {
+    position: absolute;
+    display: block;
+    pointer-events: none;
+}
+
+.video::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0.4;
+}
+
+.video::after {
+    content: url(../../assets/img/play.svg);
+    width: 60px;
+    height: 60px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.video.play::before, .video.play::after {
+    display: none;
 }
 
 .video video {
     display: block;
     width: 100%;
     max-height: 318px;
-    border-radius: 30px;
     outline: none;
 }
 

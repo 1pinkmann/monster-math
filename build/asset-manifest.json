@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "./static/css/main.507c7636.chunk.css",
-    "main.js": "./static/js/main.5e0378f7.chunk.js",
-    "main.js.map": "./static/js/main.5e0378f7.chunk.js.map",
+    "main.css": "./static/css/main.500c98b8.chunk.css",
+    "main.js": "./static/js/main.182c618d.chunk.js",
+    "main.js.map": "./static/js/main.182c618d.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.70465650.js",
     "runtime-main.js.map": "./static/js/runtime-main.70465650.js.map",
     "static/css/2.dbacc389.chunk.css": "./static/css/2.dbacc389.chunk.css",
@@ -12,14 +12,14 @@
     "static/js/3.41a2d508.chunk.js.map": "./static/js/3.41a2d508.chunk.js.map",
     "index.html": "./index.html",
     "static/css/2.dbacc389.chunk.css.map": "./static/css/2.dbacc389.chunk.css.map",
-    "static/css/main.507c7636.chunk.css.map": "./static/css/main.507c7636.chunk.css.map",
+    "static/css/main.500c98b8.chunk.css.map": "./static/css/main.500c98b8.chunk.css.map",
     "static/js/2.11d58b41.chunk.js.LICENSE.txt": "./static/js/2.11d58b41.chunk.js.LICENSE.txt",
     "static/media/Agnia.b96b4151.mp4": "./static/media/Agnia.b96b4151.mp4",
     "static/media/Choi-Won.6c03945b.mp4": "./static/media/Choi-Won.6c03945b.mp4",
     "static/media/Cover-1.e0521b42.jpg": "./static/media/Cover-1.e0521b42.jpg",
     "static/media/Cover-2.ec97a668.jpg": "./static/media/Cover-2.ec97a668.jpg",
     "static/media/Cover-3.f8935d58.jpg": "./static/media/Cover-3.f8935d58.jpg",
-    "static/media/style.css": "./static/media/lapki-black.8c829342.svg",
+    "static/media/style.css": "./static/media/play.d3e031d2.svg",
     "static/media/Instagram.8d65deaf.svg": "./static/media/Instagram.8d65deaf.svg",
     "static/media/fonts.css": "./static/media/Lexend-SemiBold.c8be013e.woff",
     "static/media/Ms-Mitchell.cf062c22.mp4": "./static/media/Ms-Mitchell.cf062c22.mp4",
@@ -40,7 +40,9 @@
     "static/media/monster.39916992.svg": "./static/media/monster.39916992.svg",
     "static/media/online-summer.5a5efcef.png": "./static/media/online-summer.5a5efcef.png",
     "static/media/pinterest.6559e25f.svg": "./static/media/pinterest.6559e25f.svg",
-    "static/media/poster3.66dc3aa6.jpg": "./static/media/poster3.66dc3aa6.jpg",
+    "static/media/poster1.e1017389.jpg": "./static/media/poster1.e1017389.jpg",
+    "static/media/poster2.7ae58942.jpg": "./static/media/poster2.7ae58942.jpg",
+    "static/media/poster3.d74f3df9.jpg": "./static/media/poster3.d74f3df9.jpg",
     "static/media/revolutionary.e88e9b87.webp": "./static/media/revolutionary.e88e9b87.webp",
     "static/media/slick-theme.css": "./static/media/slick.c94f7671.ttf",
     "static/media/star.4caa5da2.svg": "./static/media/star.4caa5da2.svg"
@@ -49,7 +51,7 @@
     "static/js/runtime-main.70465650.js",
     "static/css/2.dbacc389.chunk.css",
     "static/js/2.11d58b41.chunk.js",
-    "static/css/main.507c7636.chunk.css",
-    "static/js/main.5e0378f7.chunk.js"
+    "static/css/main.500c98b8.chunk.css",
+    "static/js/main.182c618d.chunk.js"
   ]
 }
