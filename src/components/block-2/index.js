@@ -58,8 +58,8 @@ const Block2 = () => {
                 <div className="col-12 col-lg-6 section-2">
                     <div className="text">
                         <p>✅ Your child is in grade K through 5</p>
-                        <p>✅ You want your child to build a strong foundation in mathematics and problem solving; </p>
-                        <p>✅ You’re new to Singapore Math or are already using the curriculum;</p>
+                        <p>✅ You want your child to build a strong foundation in mathematics and problem solving</p>
+                        <p>✅ You’re new to Singapore Math or are already using the curriculum</p>
                     </div>
                 </div>
             </div>

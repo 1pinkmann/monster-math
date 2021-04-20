@@ -9,7 +9,7 @@ const FirstStep = ({id}) => {
 
   return (
     <form className="form position-absolute" id={id}>
-      <h3>Schedule a call with out education expert:</h3>
+      <h3>Schedule a call with our education expert:</h3>
 
       <div className='form-footer'>
           <div className='form-footer-top-space-for-element form-footer-horizontal-buttons'>

@@ -9,8 +9,7 @@ const Block10 = () => {
         <div className="col-12 col-lg-6 monster-block">
           <img src={Monster} alt="Teacher" />
           <h2>Limited time offer</h2>
-          <p>Contact us now and get enrollment fee waived</p>
-          <h3>(value $199.00)</h3>
+          <p>Contact us now for a complimentary consultation with our education expert</p>
         </div>
         <div className="col-12 col-lg-6">
           <FormContainer id="form-contact" />
