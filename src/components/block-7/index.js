@@ -8,7 +8,7 @@ const textForMitchell = "As a certified teacher of gifted and elementary educati
 const Block7 = () =>{
   return <>
   <div className="container block-7">
-    <h2>Featured Instructors and Coaches:</h2>
+    <h2>Featured Singapore Math Teachers</h2>
     <div className="row">
       <div className="col-12 col-md-6 col-lg-4 block-7__card">
         <BioCard backgroundImageClass="Ferguson-bio" text={textForFerguson} />
