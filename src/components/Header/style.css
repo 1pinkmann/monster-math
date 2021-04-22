@@ -1,5 +1,7 @@
 .bg-video__wrapper {
     min-height: 649px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     align-items: center;
     display: flex;
 }

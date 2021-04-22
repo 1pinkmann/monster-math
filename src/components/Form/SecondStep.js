@@ -34,8 +34,8 @@ const gradeOptions = [
 const childFields = number => (
   <>
     <Field
-      name={`child_${number}_firt_name`}
-      placeholder="Child's Firt Name"
+      name={`child_${number}_first_name`}
+      placeholder="Child's First Name"
       type='text'
       component={Input}
       validate={required} />
