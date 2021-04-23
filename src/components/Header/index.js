@@ -30,9 +30,6 @@ const Header = () => {
 
       </div>
     </div>
-    <div className="container summer-wrapper">
-      <img className="summer" src={Summer} alt="action" />
-    </div>
   </>
 }
 
