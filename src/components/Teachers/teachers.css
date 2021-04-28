@@ -1,0 +1,28 @@
+.block-7 {
+  margin-top: 100px;
+}
+
+.block-7 h2 {
+  margin-bottom: 60px;
+}
+
+.block-7 img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 767px) {
+  .block-7 h2 {
+    margin-bottom: 30px;
+  }
+
+  .block-7__card {
+    max-width: 380px !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .block-7__card:not(:first-child) {
+    margin-top: 45px;
+  }
+}

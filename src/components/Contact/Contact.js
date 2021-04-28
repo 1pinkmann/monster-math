@@ -1,0 +1,34 @@
+import './contact.css'
+import Monster from '../../assets/img/monster.svg'
+import FormContainer from '../../containers/Form'
+import Countdown from 'react-countdown';
+import Timer from '../Timer/Timer';
+
+
+const Contact = () => {
+
+    const renderer = ({ days, hours, minutes, seconds }) => {
+        return <Timer days={days} hours={hours} minutes={minutes} seconds={seconds} />
+    };
+
+    return (
+        <div id="form2" className="container contact">
+            <div className="row">
+                <div className="col-12 col-lg-6 monster-block">
+                    <img className="monster-block__image" src={Monster} alt="Teacher" />
+                    <p>Contact us now for a complimentary consultation with our education expert</p>
+                    <h2>Limited Time Offer Ends in:</h2>
+                    <Countdown
+                        date={new Date('2021-05-10T03:24:00')}
+                        renderer={renderer}
+                    />
+                </div>
+                <div className="col-12 col-lg-6">
+                    <FormContainer id="form-contact" />
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default Contact

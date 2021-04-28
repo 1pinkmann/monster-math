@@ -9,10 +9,11 @@
 .bg-video__columns {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .bg-video__column {
-    max-width: 40%;
+    width: 40%;
 }
 
 .bg-video {
@@ -56,7 +57,7 @@
 
 @media (max-width: 1200px) {
     .bg-video__column {
-        max-width: 50%;
+        width: 50%;
     }
 
     .bg-video__column:nth-child(1) {
@@ -108,7 +109,7 @@
     }
 
     .bg-video__column {
-        max-width: 100%;
+        width: 100%;
     }
 
     .bg-video__column:nth-child(1) {
