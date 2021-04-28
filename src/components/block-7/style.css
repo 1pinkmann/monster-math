@@ -11,29 +11,6 @@
   height: auto;
 }
 
-.block-7 h4 {
-  margin-top: 15px;
-  margin-bottom: 30px;
-}
-
-.block-7 .Ferguson-bio {
-  background-image: url(../../assets/img/Ferguson.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-
-.block-7 .Payne-bio {
-  background-image: url(../../assets/img/Payne.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-
-.block-7 .Mitchell-bio {
-  background-image: url(../../assets/img/Mitchell.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-
 @media (max-width: 767px) {
   .block-7 h2 {
     margin-bottom: 30px;
@@ -43,5 +20,9 @@
     max-width: 380px !important;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .block-7__card:not(:first-child) {
+    margin-top: 45px;
   }
 }

@@ -1,7 +1,5 @@
 import './style.css'
 import clip from '../../assets/video/header.mp4'
-import Poster from '../../assets/img/header-bg.webp'
-import Summer from '../../assets/img/online-summer.png'
 import logo from '../../assets/img/logo.svg'
 import FormContainer from '../../containers/Form/index.js'
 
@@ -27,7 +25,6 @@ const Header = () => {
             <FormContainer id="form-header" />
           </div>
         </div>
-
       </div>
     </div>
   </>
