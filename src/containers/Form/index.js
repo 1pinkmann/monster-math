@@ -81,8 +81,7 @@ const FormContainer = ({ id, setShowForm }) => {
                 sendDataAndNext={sendDataAndNext}
                 sendForFinishStep={sendForFinishStep}
                 id={id}
-                state={formState}
-                setUserData={setUserData}
+                setShowForm={setShowForm}
             />
         </>
     )

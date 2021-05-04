@@ -5,7 +5,7 @@ import Input from '../atoms/Input'
 import Button from '../atoms/Button'
 import { composeValidators, required, email, phoneNumber } from '../../services/fieldLevelValidation';
 
-const FirstStep = ({ userData, sendDataAndNext, id, state, setUserData }) => {
+const FirstStep = ({ userData, sendDataAndNext, id }) => {
     return (
         <Form onSubmit={sendDataAndNext} initialValues={userData} render={({ handleSubmit, invalid }) => {
 

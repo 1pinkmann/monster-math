@@ -3,7 +3,7 @@ import { InlineWidget } from 'react-calendly';
 import './popup.css';
 
 let styles = {
-    minWidth: '80%',
+    minWidth: '100%',
     height: '100%'
 }
 

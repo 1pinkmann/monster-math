@@ -29,3 +29,15 @@
 .timer__text {
     font-weight: 500;
 }
+
+@media (max-width: 479px) {
+
+    .timer {
+        width: 100%; 
+    }
+
+    .timer__input {
+        width: 70px;
+        font-size: 28px;
+    }
+}
