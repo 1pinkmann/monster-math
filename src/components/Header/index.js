@@ -3,7 +3,7 @@ import clip from '../../assets/video/header.mp4'
 import logo from '../../assets/img/logo.svg'
 import FormContainer from '../../containers/Form/index.js'
 
-const Header = () => {
+const Header = ({setShowForm}) => {
   return <>
     <div className="bg-video">
       <video autoPlay loop muted>
@@ -22,7 +22,7 @@ const Header = () => {
             </div>
           </div>
           <div className="bg-video__column">
-            <FormContainer id="form-header" />
+            <FormContainer setShowForm={setShowForm} id="form-header" />
           </div>
         </div>
       </div>

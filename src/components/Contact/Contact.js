@@ -5,7 +5,7 @@ import Countdown from 'react-countdown';
 import Timer from '../Timer/Timer';
 
 
-const Contact = () => {
+const Contact = ({setShowForm}) => {
 
     const renderer = ({ days, hours, minutes, seconds }) => {
         return <Timer days={days} hours={hours} minutes={minutes} seconds={seconds} />
@@ -24,7 +24,7 @@ const Contact = () => {
                     />
                 </div>
                 <div className="col-12 col-lg-6">
-                    <FormContainer id="form-contact" />
+                    <FormContainer setShowForm={setShowForm} id="form-contact" />
                 </div>
             </div>
         </div>

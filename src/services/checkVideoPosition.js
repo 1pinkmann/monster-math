@@ -4,6 +4,8 @@ export default function checkVideoInViewport(elements) {
 
         elements.forEach((element) => {
 
+            if (!element) return;
+
             if (!getVideoPosition(element) && !element.paused) {
                 element.pause();
             }
@@ -12,6 +14,7 @@ export default function checkVideoInViewport(elements) {
 }
 
 function getVideoPosition(el) {
+    if (!el) return; 
     var rect = el.getBoundingClientRect();
     return !(rect.top > window.innerHeight || rect.bottom < 0);
 }

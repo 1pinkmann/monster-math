@@ -13,25 +13,37 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import './App.css';
-
-
+import Popup from './../Popup/Popup';
+import { useState } from 'react';
 
 function App() {
-  return (
-    <div className="App">
-      <Header />
-      <VideoSection />
-      <Tuition />
-      <Teachers />
-      <InsideClass />
-      <ButtonApply text="Apply Now" />
-      <About />
-      <Reviews />
-      <Contact />
-      <Founder />
-      <Footer />
-    </div>
-  );
+
+    const [showForm, setShowForm] = useState(false);
+    overflowBody(showForm);
+    return (
+        <div className="App">
+            <Header setShowForm={setShowForm} />
+            <VideoSection />
+            <Tuition />
+            <Teachers />
+            <InsideClass />
+            <ButtonApply text="Apply Now" />
+            <About />
+            <Reviews />
+            <Contact setShowForm={setShowForm} />
+            <Founder />
+            <Footer />
+            {showForm ? <Popup setShowForm={setShowForm} /> : null}
+        </div>
+    );
+}
+
+function overflowBody(showForm) {
+    if (showForm) {
+        document.body.style.overflow = 'hidden';
+    } else {
+        document.body.style.overflow = null;
+    }
 }
 
 export default App;

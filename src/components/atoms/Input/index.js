@@ -8,7 +8,6 @@ import './tel.css'
 const Input = ({ meta, ...props}) => {
   const isInvalid = meta.error && meta.touched
   let inputClasses = 'atom-input'
-
   if (isInvalid) inputClasses += ' atom-input__invalid'
 
   if (props.input.type === 'tel') {
