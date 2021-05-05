@@ -1,8 +1,6 @@
 import './video-section.css';
 import Poster1 from '../../assets/img/poster1.jpg';
-import Poster2 from '../../assets/img/poster2.jpg';
 import ChoiWon from '../../assets/video/Choi-Won.mp4';
-import MsMitchell from '../../assets/video/Ms-Mitchell.mp4';
 import Slider from "react-slick";
 import checkVideoInViewport from '../../services/checkVideoPosition';
 import { useEffect, useRef, useState } from 'react';
@@ -45,14 +43,7 @@ const VideoSection = () => {
                                     <source src={ChoiWon} type='video/mp4' />
                                 </video>
                             </div>
-                        </div>
-                        <div>
-                            <div className="video" onPlay={handleVideoPlay} onPause={handleVideoPause}>
-                                <video ref={el => videoRefs.current.push(el)} controls="controls" playsInline poster={Poster2}>
-                                    <source src={MsMitchell} type='video/mp4' />
-                                </video>
-                            </div>
-                        </div>
+                        </div>                  
                     </Slider>
                 </div>
                 <div className="col-12 col-lg-6 section-2">

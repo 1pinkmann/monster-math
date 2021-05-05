@@ -11,6 +11,8 @@ const Contact = ({setShowForm}) => {
         return <Timer days={days} hours={hours} minutes={minutes} seconds={seconds} />
     };
 
+    let date = new Date();
+
     return (
         <div id="form2" className="container contact">
             <div className="row">
@@ -19,7 +21,7 @@ const Contact = ({setShowForm}) => {
                     <p>Contact us now for a complimentary consultation with our education expert</p>
                     <h2>Limited Time Offer Ends in:</h2>
                     <Countdown
-                        date={new Date('2021-05-10T03:24:00')}
+                        date={date.setDate(date.getDate() + 10)}
                         renderer={renderer}
                     />
                 </div>

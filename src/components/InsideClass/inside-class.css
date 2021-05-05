@@ -20,3 +20,26 @@
 .inside-class__title {
     text-align: center;
 }
+
+@media (max-width: 989px) {
+
+    .inside-class__videos {
+        flex-direction: column;
+    }
+
+    .inside-class__video {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .inside-class__video:not(:first-child) {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 479px) {
+
+    .inside-class__videos {
+        padding: 20px;
+    }
+}

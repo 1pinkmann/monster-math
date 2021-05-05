@@ -11,13 +11,6 @@ const FormContainer = ({ id, setShowForm }) => {
     const [childs, setChilds] = useState(1)
     const [step, setStep] = useState(1)
 
-    const [formState, setFormState] = useState({
-        first_name: '',
-        last_name: '',
-        email: '',
-        phone: ''
-    });
-
     const getApi = async () => {
         const ipAdress = await getClientIp()
 
@@ -58,7 +51,6 @@ const FormContainer = ({ id, setShowForm }) => {
         window.dataLayer.push({ 'event': 'gtm.formSubmit' });
 
         setShowForm(true);
-        setUserData({});
     }
 
     const sendForFinishStep = params => {
