@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "./static/css/main.fbd762ac.chunk.css",
-    "main.js": "./static/js/main.7ff4129d.chunk.js",
-    "main.js.map": "./static/js/main.7ff4129d.chunk.js.map",
+    "main.js": "./static/js/main.2ff9a67f.chunk.js",
+    "main.js.map": "./static/js/main.2ff9a67f.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.c3bd2d2a.js",
     "runtime-main.js.map": "./static/js/runtime-main.c3bd2d2a.js.map",
     "static/css/2.dbacc389.chunk.css": "./static/css/2.dbacc389.chunk.css",
@@ -28,12 +28,14 @@
     "static/media/facebook.ada6c486.svg": "./static/media/facebook.ada6c486.svg",
     "static/media/header.40221f85.mp4": "./static/media/header.40221f85.mp4",
     "static/media/icon-money-back-guarantee.8390a1cf.svg": "./static/media/icon-money-back-guarantee.8390a1cf.svg",
+    "static/media/inside-class-1.7ae58942.jpg": "./static/media/inside-class-1.7ae58942.jpg",
     "static/media/inside-class-1.cf062c22.mp4": "./static/media/inside-class-1.cf062c22.mp4",
+    "static/media/inside-class-2.3bcaea3c.jpg": "./static/media/inside-class-2.3bcaea3c.jpg",
     "static/media/inside-class-2.ab49757e.mp4": "./static/media/inside-class-2.ab49757e.mp4",
     "static/media/founder.css": "./static/media/lapki-black.8c829342.svg",
     "static/media/lapki.a78524a6.svg": "./static/media/lapki.a78524a6.svg",
     "static/media/logo.a5e25344.svg": "./static/media/logo.a5e25344.svg",
-    "static/media/monster.39916992.svg": "./static/media/monster.39916992.svg",
+    "static/media/monster.3517bcf0.svg": "./static/media/monster.3517bcf0.svg",
     "static/media/pinterest.6559e25f.svg": "./static/media/pinterest.6559e25f.svg",
     "static/media/video-section.css": "./static/media/play.d3e031d2.svg",
     "static/media/poster1.e1017389.jpg": "./static/media/poster1.e1017389.jpg",
@@ -47,6 +49,6 @@
     "static/css/2.dbacc389.chunk.css",
     "static/js/2.6cdb01e2.chunk.js",
     "static/css/main.fbd762ac.chunk.css",
-    "static/js/main.7ff4129d.chunk.js"
+    "static/js/main.2ff9a67f.chunk.js"
   ]
 }

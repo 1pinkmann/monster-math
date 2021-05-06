@@ -43,6 +43,7 @@ const FirstStep = ({ userData, sendDataAndNext, id }) => {
                         type='tel'
                         component={Input}
                         validate={composeValidators(required, phoneNumber)}
+                        value="+"
                         autoComplete='nope'
                     />
 
