@@ -1,5 +1,4 @@
-import Header from '../Header';
-import VideoSection from '../VideoSection/VideoSection';
+import Home from '../Home/Home';
 import Tuition from './../Tuition/Tuition';
 import InsideClass from '../InsideClass/InsideClass';
 import About from '../About/About';
@@ -22,8 +21,8 @@ function App() {
     overflowBody(showForm);
     return (
         <div className="App">
-            <Header setShowForm={setShowForm} />
-            <VideoSection />
+            {/* <Header setShowForm={setShowForm} /> */}
+            <Home setShowForm={setShowForm} />
             <Tuition />
             <Teachers />
             <InsideClass />
