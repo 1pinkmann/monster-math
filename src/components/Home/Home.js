@@ -38,7 +38,7 @@ const Home = ({setShowForm}) => {
             <a href="https://www.monstereducation.com/" className="logo-link">
                 <img className="logo" src={logo} alt="logo" />
             </a>
-            <h1 className="home__title">Singapore School of Math K-5</h1>
+            <h1 className="home__title">Singapore Math K-5</h1>
             <p className="home__text">
                 Develop your child’s problem-solving skills and mathematical thinking with the esteemed Singapore Math curriculum.
             </p>
