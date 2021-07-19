@@ -43,14 +43,6 @@
   position: relative;
 }
 
-.card-2__icon {
-  width: 124px;
-  position: absolute;
-  bottom: 60%;
-  left: -43px;
-  transform: rotateZ(340deg);
-}
-
 .tuition .card-3 {
   background: #e0d2f5;
 }

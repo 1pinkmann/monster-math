@@ -17,7 +17,7 @@ const FormContainer = ({ id, setShowForm }) => {
         setIpAdress(ipAdress)
     }
 
-    useEffect(async () => {
+    useEffect(() => {
         getApi()
     })
     // new https://script.google.com/macros/s/AKfycbwJ9H88mHG6x2w8IGDOZocYyZCciZ4SUDmC-SfbuDjgCILgeQNsqpw7L9rqldSjLEJskg/exec

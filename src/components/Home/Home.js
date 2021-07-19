@@ -1,9 +1,9 @@
 import './home.css';
-import Poster1 from '../../assets/img/poster1.jpg';
-import ChoiWon from '../../assets/video/Choi-Won.mp4';
+import Poster1 from '../../assets/img/math-video-poster.jpg';
+import mathVideo from '../../assets/video/math-video.mp4';
 import Slider from "react-slick";
 import checkVideoInViewport from '../../services/checkVideoPosition';
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef } from 'react';
 import useVideo from '../../hooks/useVideo';
 import logo from '../../assets/img/logo.svg'
 import FormContainer from './../../containers/Form/index';
@@ -48,7 +48,7 @@ const Home = ({setShowForm}) => {
                         <div>
                             <div className="video" onPlay={handleVideoPlay} onPause={handleVideoPause}>
                                 <video ref={el => videoRefs.current.push(el)} preload="metadata" controls="controls" playsInline poster={Poster1}>
-                                    <source src={ChoiWon} type='video/mp4' />
+                                    <source src={mathVideo} type='video/mp4' />
                                 </video>
                             </div>
                         </div>
